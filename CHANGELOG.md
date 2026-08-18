@@ -1,3 +1,10 @@
+# 1.0.0 (2026-08-18)
+
+
+### Features
+
+* initial Mailprotector SDK — client, 15 resources, full endpoint coverage ([823d2b6](https://github.com/wyre-technology/node-mailprotector/commit/823d2b670d6dc88b00e0421e16319e269890309b))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
