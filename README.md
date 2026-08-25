@@ -12,20 +12,20 @@ Node.js client library for the [Mailprotector](https://api.mailprotector.com/) A
 ## Install
 
 ```bash
-npm install @wyre-technology/node-mailprotector
+npm install @wyre-ai/node-mailprotector
 ```
 
-The package is published to GitHub Packages under the `@wyre-technology` scope. Configure your `.npmrc`:
+The package is published to GitHub Packages under the `@wyre-ai` scope. Configure your `.npmrc`:
 
 ```
-@wyre-technology:registry=https://npm.pkg.github.com
+@wyre-ai:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
 ```
 
 ## Usage
 
 ```ts
-import { MailprotectorClient } from '@wyre-technology/node-mailprotector';
+import { MailprotectorClient } from '@wyre-ai/node-mailprotector';
 
 const mp = new MailprotectorClient({
   apiKey: process.env.MAILPROTECTOR_API_KEY!, // per manager-role, from the console profile page
@@ -99,7 +99,7 @@ import {
   AuthenticationError,
   NotFoundError,
   RateLimitError,
-} from '@wyre-technology/node-mailprotector';
+} from '@wyre-ai/node-mailprotector';
 
 try {
   await mp.customers.get(999999);
