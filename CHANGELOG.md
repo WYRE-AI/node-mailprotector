@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/WYRE-AI/node-mailprotector/compare/v1.0.0...v1.0.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#1](https://github.com/WYRE-AI/node-mailprotector/issues/1)) ([6d69c84](https://github.com/WYRE-AI/node-mailprotector/commit/6d69c84bf2c157ca640395ce3a9e881392abdd72))
+
 # 1.0.0 (2026-08-18)
 
 
